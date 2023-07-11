@@ -57,8 +57,13 @@
             width: 420px;
             height: 300px;
             object-fit: scale-down;
-            @media (max-width:760px) {
-                width: 420px*95/100;
+
+            @include variables.mediaQ(760px){
+                width: 420px*80 / 100;
+            }
+
+            @include variables.mediaQ(400px){
+                width: 420px*50 / 100;
             }
         }
 
@@ -69,9 +74,11 @@
             color: variables.$primerColor;
             z-index: 100;
             cursor: pointer;
-            @media (max-width:760px) {
+            @include variables.mediaQ(760px){
                 font-size: 20px;
             }
+
+
         }
 
         img{
@@ -81,8 +88,12 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            @media (max-width:760px) {
-                width: 750px*95/100;
+            @include variables.mediaQ(760px){
+                width: 750px*80 / 100;
+            }
+
+            @include variables.mediaQ(400px){
+                width: 750px*50 / 100;
             }
         }
     }
