@@ -62,14 +62,15 @@
             height: 300px;
             object-fit: scale-down;
 
+
             @include variables.mediaQ(760px){
                 width: 420px * 80 / 100;
                 height: 300px * 80 / 100;
             }
 
             @include variables.mediaQ(400px){
-                width: 420px * 50 / 100;
-                height: 300px * 50 / 100;
+                width: 420px * 60 / 100;
+                height: 300px * 60 / 100;
             }
         }
 
@@ -99,7 +100,7 @@
             }
 
             @include variables.mediaQ(400px){
-                width: 750px * 50 / 100;
+                width: 750px * 60 / 100;
             }
         }
     }

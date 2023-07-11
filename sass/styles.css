@@ -74,8 +74,8 @@
 }
 @media screen and (max-width: 400px) {
   .container .popup-video iframe {
-    width: 210px;
-    height: 150px;
+    width: 252px;
+    height: 180px;
   }
 }
 .container .popup-video span {
@@ -107,6 +107,6 @@
 }
 @media screen and (max-width: 400px) {
   .container .popup-video img {
-    width: 375px;
+    width: 450px;
   }
 }/*# sourceMappingURL=styles.css.map */
