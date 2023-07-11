@@ -66,11 +66,13 @@
 @media screen and (max-width: 760px) {
   .container .popup-video video {
     width: 336px;
+    height: 240px;
   }
 }
 @media screen and (max-width: 400px) {
   .container .popup-video video {
     width: 210px;
+    height: 150px;
   }
 }
 .container .popup-video span {
