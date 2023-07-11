@@ -10,14 +10,3 @@ document.querySelectorAll('.video-container .video').forEach(vid => {
 document.querySelector('.popup-video span').onclick = () =>{
     document.querySelector('.popup-video').style.display = 'none';
 }
-
-/*const play = document.querySelector(".video");
-const ventanamodal = document.querySelector(".popup-video");
-
-play.onclick = function(){
-    ventanamodal.style.display = "block";
-}
-
-ventanamodal.onclick = function(){
-    ventanamodal.style.display = "none";
-}*/
